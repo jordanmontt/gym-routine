@@ -186,8 +186,8 @@ let workouts = [
             {
                 "name": "Deadlift",
                 "sets": 1,
-                "reps": "3",
-                "description": "Full-body strength exercise targeting the back, glutes, hamstrings, and core"
+                "reps": "5",
+                "description": "Full-body strength for the back, glutes, hamstrings, and core. Do 2-3 warm-up sets."
             },
             {
                 "name": "Machine Squats",
