@@ -5,57 +5,15 @@ let workouts = [
         "exercises": [
             {
                 "name": "High Pull Ups",
-                "sets": 3,
+                "sets": 4,
                 "reps": "5-8",
                 "description": "Lats, biceps brachii, traps, rhomboids"
             },
             {
                 "name": "Pull Ups",
-                "sets": 3,
-                "reps": "5-8",
-                "description": "Lats, biceps brachii, traps, rhomboids"
-            },
-            {
-                "name": "Chin Ups",
-                "sets": 3,
-                "reps": "5-8",
-                "description": "Lats, biceps brachii, traps, rhomboids"
-            },
-            {
-                "name": "Close Grip Pull Ups",
-                "sets": 3,
-                "reps": "5-8",
-                "description": "Lats, biceps brachii, brachialis, brachioradialis, rhomboids"
-            },
-            {
-                "name": "Close Grip Chin Ups",
-                "sets": 3,
-                "reps": "5-8",
-                "description": "Lats, biceps brachii, brachialis, brachioradialis, rhomboids"
-            }
-        ]
-    },
-    {
-        "name": "Pull Workout 2",
-        "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
-        "exercises": [
-            {
-                "name": "Deadlift",
-                "sets": 1,
-                "reps": "5",
-                "description": "Full-body strength for the back, glutes, hamstrings, and core. Do 2-3 warm-up sets."
-            },
-            {
-                "name": "Lat Pulldown with Neutral Grip",
                 "sets": 4,
-                "reps": 8,
-                "description": "Lats, biceps, Brachialis, brachioradialis, rhomboids"
-            },
-            {
-                "name": "Seated Cable Row",
-                "sets": 3,
-                "reps": 8,
-                "description": "Lats, rhomboids, traps"
+                "reps": "5-8",
+                "description":  "Lats, biceps brachii, traps, rhomboids"
             },
             {
                 "name": "DB High Pulls",
@@ -64,9 +22,57 @@ let workouts = [
                 "description": "Upper back muscles with healthy shoulder mechanics."
             },
             {
-                "name": "Barbell Curls into Overhead Tricep Extensions",
+                "name": "Seated Cable Row",
+                "sets": "3",
+                "reps": "8",
+                "description": "Lats, rhomboids, traps"
+            },
+            {
+                "name": "BW Chin Curls into Overhead Triceps Extension",
                 "sets": 3,
                 "reps": "F (failure) / 10-12",
+                "description": "Superset for biceps and triceps."
+            },
+            {
+                "name": "Face Pulls",
+                "sets": 3,
+                "reps": "15-20",
+                "description": "Rear delts, shoulder health."
+            }
+        ]
+    },
+    {
+        "name": "Pull Workout 2",
+        "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
+        "exercises": [
+            {
+                "name": "Towel Push Ups",
+                "sets": 4,
+                "reps": "5-8",
+                "description": "Forearms, lats, traps, rhomboids"
+            },
+            {
+                "name": "Chin Ups",
+                "sets": 4,
+                "reps": "5.8",
+                "description": "Lats, biceps brachii, traps, rhomboids"
+            },
+            {
+                "name": "DB Rows",
+                "sets": 3,
+                "reps": "10-12 each arm",
+                "description": "Lats, rhomboids, traps"
+            },
+            {
+                "name": "DB Pullovers",
+                "sets": "3",
+                "reps": "10-12",
+                "description": "Lats, shoulder mobility."
+            },
+            {
+                "name": "Barbell Curls into Triceps Pushdowns",
+                "sets": 3,
+                "reps": "6-8 / 10-12",
                 "description": "Superset for biceps and triceps."
             },
             {
@@ -176,6 +182,12 @@ let workouts = [
                 "sets": 3,
                 "reps": "8-10",
                 "description": "Hip warm-up and stretch"
+            },
+            {
+                "name": "Deadlift",
+                "sets": 1,
+                "reps": "5",
+                "description": "Full-body strength for the back, glutes, hamstrings, and core. Do 2-3 warm-up sets."
             },
             {
                 "name": "Machine Squats",
