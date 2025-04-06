@@ -1,6 +1,6 @@
 let workouts = [
     {
-        "name": "Pull Workout 1",
+        "name": "Pull Workout 1 (Pull Ups Day)",
         "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
         "exercises": [
             {
@@ -178,10 +178,10 @@ let workouts = [
                 "description": "Hip warm-up and stretch"
             },
             {
-                "name": "Machine Squats",
+                "name": "Barbell Squats",
                 "sets": 4,
                 "reps": "4-6",
-                "description": "No lower back pressure after deadlift"
+                "description": "Quadriceps, hamstrings, gluteus Maximus"
             },
             {
                 "name": "Glute Machine",
