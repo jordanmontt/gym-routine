@@ -181,7 +181,7 @@ let workouts = [
                 "name": "Barbell Squats",
                 "sets": 4,
                 "reps": "4-6",
-                "description": "Quadriceps, hamstrings, gluteus Maximus"
+                "description": "Quads, hamstrings, gluteus"
             },
             {
                 "name": "Glute Machine",
