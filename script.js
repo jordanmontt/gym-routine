@@ -1,13 +1,19 @@
 let workouts = [
     {
-        "name": "Pull Workout 1 (Pull Ups Day)",
+        "name": "Pull Workout 1",
         "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
         "exercises": [
             {
-                "name": "High Pull Ups",
+                "name": "Climbers Pull Ups",
                 "sets": 3,
                 "reps": "5-8",
                 "description": "Lats, biceps brachii, traps, rhomboids"
+            },
+            {
+                "name": "Assisted Front Lever",
+                "sets": 3,
+                "reps": "5-8",
+                "description": "Advanced core and lat strength with full-body tension."
             },
             {
                 "name": "Pull Ups",
@@ -32,42 +38,6 @@ let workouts = [
                 "sets": 3,
                 "reps": "5-8",
                 "description": "Lats, biceps brachii, brachialis, brachioradialis, rhomboids"
-            }
-        ]
-    },
-    {
-        "name": "Pull Workout 2",
-        "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
-        "exercises": [
-            {
-                "name": "Deadlift",
-                "sets": 1,
-                "reps": "5",
-                "description": "Full-body strength for the back, glutes, hamstrings, and core. Do 2-3 warm-up sets."
-            },
-            {
-                "name": "Lat Pulldown with Neutral Grip",
-                "sets": 4,
-                "reps": 8,
-                "description": "Lats, biceps, Brachialis, brachioradialis, rhomboids"
-            },
-            {
-                "name": "Seated Cable Row",
-                "sets": 3,
-                "reps": 8,
-                "description": "Lats, rhomboids, traps"
-            },
-            {
-                "name": "DB High Pulls",
-                "sets": 3,
-                "reps": "10-12",
-                "description": "Upper back muscles with healthy shoulder mechanics."
-            },
-            {
-                "name": "Barbell Curls into Overhead Tricep Extensions",
-                "sets": 3,
-                "reps": "F (failure) / 10-12",
-                "description": "Superset for biceps and triceps."
             },
             {
                 "name": "Face Pulls",
@@ -78,44 +48,86 @@ let workouts = [
         ]
     },
     {
+        "name": "Pull Workout 2",
+        "link": "https://www.youtube.com/watch?v=IOl42YpK_Es",
+        "exercises": [
+            {
+                "name": "Deadlift",
+                "sets": 2,
+                "reps": "3",
+                "description": "Full-body strength for the back, glutes, hamstrings, and core. Do 2-3 warm-up sets."
+            },
+            {
+                "name": "Seated Cable Row",
+                "sets": 3,
+                "reps": 8,
+                "description": "Lats, rhomboids, traps"
+            },
+            {
+                "name": "Barbell Curls",
+                "sets": 3,
+                "reps": "6-8",
+                "description": "Arms directed exercise"
+            },
+            {
+                "name": "Lat Pulldown with Neutral Grip",
+                "sets": 3,
+                "reps": "6-8",
+                "description": "Lats, biceps, Brachialis, brachioradialis, rhomboids"
+            },
+            {
+                "name": "Dumbbell Row",
+                "sets": 3,
+                "reps": 8,
+                "description": "Lats, rhomboids, traps"
+            },
+            {
+                "name": "DB High Pulls",
+                "sets": 3,
+                "reps": "10-12",
+                "description": "Upper back muscles with healthy shoulder mechanics."
+            }
+        ]
+    },
+    {
         "name": "Push Workout 1",
         "link": "https://www.youtube.com/watch?v=HE45jVN7XKM",
         "exercises": [
             {
-                "name": "Bench Press",
-                "sets": 4,
-                "reps": "4-6",
-                "description": "Chest strength."
-            },
-            {
-                "name": "Hi-to-Low Crossover",
+                "name": "Handstand Push Up",
                 "sets": 3,
-                "reps": "10-12",
-                "description": "Chest post-pressing adduction."
+                "reps": "F",
+                "description": "Advanced shoulder and triceps bodyweight strength."
             },
             {
-                "name": "DB Shoulder Press",
-                "sets": 4,
+                "name": "Deep Dip",
+                "sets": 3,
                 "reps": "8-10",
-                "description": "Shoulders and stability."
+                "description": "Chest, shoulders, triceps with extended range of motion."
             },
             {
-                "name": "1.5 Side Lateral Raises",
+                "name": "Psudo Planche Push Up",
                 "sets": 3,
-                "reps": "12-15",
-                "description": "Side delts, shoulder width."
+                "reps": "6-8",
+                "description": "Chest, shoulders, and core engagement simulating planche tension."
             },
             {
-                "name": "Lying Triceps Extensions into any DB Curls",
+                "name": "Diamond Push Up",
                 "sets": 3,
-                "reps": "10-12",
-                "description": "Superset for triceps and biceps."
+                "reps": "8-10",
+                "description": "Triceps-focused pushup variation with close hand placement."
             },
             {
-                "name": "Rotator Cuff ER",
+                "name": "Pushup Plus",
                 "sets": 3,
-                "reps": "15-20",
-                "description": "Rotator cuff, shoulder stability and injury prevention."
+                "reps": "F (failure)",
+                "description": "Chest, scapular stability."
+            },
+            {
+                "name": "The Wall Walk",
+                "sets": 3,
+                "reps": "F",
+                "description": "Finisher exercise focused on shoulder strength and balance"
             }
         ]
     },
@@ -125,21 +137,15 @@ let workouts = [
         "exercises": [
             {
                 "name": "Barbell Overhead Press",
-                "sets": 4,
+                "sets": 3,
                 "reps": "4-6",
-                "description": "Shoulders, triceps, upper chest"
+                "description": "Shoulders and stability."
             },
             {
-                "name": "Underhand DB Bench Press",
+                "name": "Incline Bench Press",
                 "sets": 3,
-                "reps": "8-10",
-                "description": "Lower chest, triceps."
-            },
-            {
-                "name": "Abduction Rows",
-                "sets": 3,
-                "reps": "10-12",
-                "description": "Upper back and shoulder stability."
+                "reps": "4-6",
+                "description": "Chest strength."
             },
             {
                 "name": "Cable Flys",
@@ -148,16 +154,22 @@ let workouts = [
                 "description": "Chest adduction for pectoral contraction"
             },
             {
-                "name": "Triceps Close Grip Bench Press into DB Curl of Choice",
+                "name": "Rear Delt Flyes",
                 "sets": 3,
-                "reps": "6-8 / 10-12",
-                "description": "Superset fot triceps and biceps."
+                "reps": "12",
+                "description": "Isolation of rear delts for balanced shoulder development."
             },
             {
-                "name": "Pushup Plus",
+                "name": "Triceps Close Grip Bench Press",
                 "sets": 3,
-                "reps": "F (failure)",
-                "description": "Chest, scapular stability."
+                "reps": "6-8",
+                "description": "Directed-arm exercise"
+            },
+             {
+                "name": "Rotator Cuff ER",
+                "sets": 3,
+                "reps": "15-20",
+                "description": "Rotator cuff, shoulder stability and injury prevention."
             }
         ]
     },
@@ -178,8 +190,8 @@ let workouts = [
                 "description": "Hip warm-up and stretch"
             },
             {
-                "name": "Barbell Squats",
-                "sets": 4,
+                "name": "Barbell Squats (or Kata Squats)",
+                "sets": 3,
                 "reps": "4-6",
                 "description": "Quads, hamstrings, gluteus"
             },
